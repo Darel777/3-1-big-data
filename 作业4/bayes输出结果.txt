@@ -1,0 +1,23 @@
+Correctly Classified Instances        4076               88.5894 %
+Incorrectly Classified Instances       525               11.4106 %
+Kappa statistic                          0.7577
+Mean absolute error                      0.1176
+Root mean squared error                  0.3138
+Relative absolute error                 24.6345 %
+Root relative squared error             64.2204 %
+Total Number of Instances             4601     
+
+All original testing success rate :0.8858943707889589
+
+Correctly Classified Instances           1              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0034
+Root mean squared error                  0.0034
+Relative absolute error                  0.5575 %
+Root relative squared error              0.5575 %
+Total Number of Instances                1     
+
+Test success rate: 1.0
+
+进程已结束,退出代码0
