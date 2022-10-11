@@ -1,0 +1,40 @@
+Preserve order of instances.
+
+kMeans
+======
+
+Number of iterations: 6
+Within cluster sum of squared errors: 1604.7416693522332
+
+Initial starting points (random):
+
+Cluster 0: 0.142857,FEMALE,RURAL,0.163313,NO,3,NO,YES,YES,NO,NO
+Cluster 1: 0.877551,FEMALE,RURAL,0.308499,YES,2,NO,YES,YES,NO,NO
+Cluster 2: 0.734694,FEMALE,INNER_CITY,0.448782,YES,2,NO,NO,YES,NO,YES
+Cluster 3: 0.367347,FEMALE,TOWN,0.376947,YES,0,NO,NO,YES,NO,NO
+Cluster 4: 0.489796,MALE,INNER_CITY,0.180427,YES,0,YES,NO,YES,YES,YES
+Cluster 5: 0.653061,MALE,TOWN,0.618741,NO,2,YES,YES,YES,YES,YES
+
+Missing values globally replaced with mean/mode
+
+Final cluster centroids:
+                           Cluster#
+Attribute      Full Data          0          1          2          3          4          5
+                 (600.0)     (77.0)     (76.0)     (77.0)    (147.0)    (106.0)    (117.0)
+==========================================================================================
+age               0.4979     0.3904     0.5363     0.6186     0.4309     0.4347     0.6054
+sex               FEMALE     FEMALE     FEMALE     FEMALE     FEMALE       MALE       MALE
+region        INNER_CITY INNER_CITY      RURAL INNER_CITY       TOWN INNER_CITY       TOWN
+income            0.3873      0.316     0.3916     0.3898     0.3275     0.3673     0.5232
+married              YES         NO        YES        YES        YES        YES         NO
+children               0          3          2          1          0          0          2
+car                   NO         NO         NO         NO         NO        YES        YES
+save_act             YES        YES        YES         NO        YES         NO        YES
+current_act          YES        YES        YES        YES        YES        YES        YES
+mortgage              NO         NO         NO         NO         NO        YES         NO
+pep                   NO         NO         NO        YES         NO        YES        YES
+
+
+
+
+进程已结束,退出代码0
